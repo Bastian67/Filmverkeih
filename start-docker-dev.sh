@@ -49,7 +49,7 @@ echo
 echo -e " » ${BOLD}Backend:${RESET}  $API_URL"
 echo -e " » ${BOLD}Frontend:${RESET} $WEB_URL"
 echo -e " » ${BOLD}DB-Admin:${RESET} $DB_URL"
-echo -e " » ${BOLD}Gateway:${RESET} $GW_URL    ← Produktivsetup der App"
+echo -e " » ${BOLD}Gateway:${RESET} $GW_URL/app    ← Produktivsetup der App"
 confirm
 
 # Container starten
@@ -60,7 +60,7 @@ echo -e "${BOLD}Bei Fehlern in der Anwendung bitte hier die Log-Ausgaben prüfen
 confirm
 echo
 
-docker-compose -f docker-compose.dev.yml up --attach
+docker-compose -f docker-compose.dev.yml up --attach backend
 
 #echo
 #echo "Zum Stoppen der Container folgenden Befehl eingeben:"
