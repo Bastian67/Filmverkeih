@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Adressbuch: Backend",
   "author": "Dennis Schulmeister-Zimolong",
-  "license": "CC-BY-4.0",
+  "license": "CC-BY-4.0",  Testen
   "main": "src/index.js", Hallo Owen
   "type": "module",  "scripts": {
     "start": "nodemon --inspect=0.0.0.0:9229 src/index.js",
