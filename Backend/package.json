@@ -4,7 +4,7 @@
   "description": "Adressbuch: Backend",
   "author": "Dennis Schulmeister-Zimolong",
   "license": "CC-BY-4.0",  Testen
-  "main": "src/index.js", Hallo Owen
+  "main": "src/index.js", Hallo Owen du geiler kerl
   "type": "module",  "scripts": {
     "start": "nodemon --inspect=0.0.0.0:9229 src/index.js",
     "mongo-start": "docker run -d --name mongodb -p 27017:27017 mongo",
