@@ -2,7 +2,7 @@
   "name": "adressbuch-backend",
   "version": "1.0.0",
   "description": "Adressbuch: Backend",
-  "author": "Dennis Schulmeister-Zimolong",
+  "author": "Dennis Schulmeister-Zimolong", hallo
   "license": "CC-BY-4.0",
   "main": "src/index.js",
   "type": "module",  "scripts": {
